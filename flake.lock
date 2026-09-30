@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "impactor-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1790674338,
+        "narHash": "sha256-Hht6C1lOrSZvDuLSMsSB0zeVzCr1kNyPf2MZOP0Kqn8=",
+        "owner": "claration",
+        "repo": "impactor",
+        "rev": "53ff85713a81418e61d7ea75825f4995fef3ec40",
+        "type": "github"
+      },
+      "original": {
+        "owner": "claration",
+        "repo": "impactor",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1790652569,
+        "narHash": "sha256-k8Fu4c9Z+4Nh7mUr0cfw++ITQiyEhlWxoJBOkI3tOcQ=",
+        "rev": "b6c8664de9b6cc07fe5666a29f91884ba81197c4",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixpkgs/nixpkgs-26.11pre1082290.b6c8664de9b6/nixexprs.tar.zst"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst"
+      }
+    },
+    "root": {
+      "inputs": {
+        "impactor-src": "impactor-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
